@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/85e864edd71ad06105d5e298f4cea088.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="owfont-regular.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Сайтик</title>
+  <script type="text/javascript">
+    function viewDiv() {
+      document.getElementById("div1").style.display = "block";
+      document.getElementById("div2").style.display = "block";
+      document.getElementById("bg").style.display = "block";
+
+    };
+    function backDiv() {
+      document.getElementById("div1").style.display = "none";
+      document.getElementById("div2").style.display = "none";
+      document.getElementById("bg").style.display = "none";
+
+    }
+  </script>
+</head>
+
+<body>
+  <div class="mainDiv">
+    <div class="btn1"><button type="button" class="btn" onclick="viewDiv()">ПОДАРОК</button></div>
+  </div>
+  <div class="podarok" id="div1">
+    <img src="../../assets/Mag.png" alt="">
+    <div class="text1">Поздравляю!!!</div>
+    <div class="text2">Tы выиграла сертификат на одну поездку в Пружаны вместе со мной.Есть одно НО,в доме не будет
+      стульев и диванов,поэтому если ты захочешь присесть,то только мне на лицо(в копилочку очень тупых подкатов).Если
+      ты это читаешь,то самое время позвонить мне и рассказать о своих эмоциях от подарка.</div>
+  </div>
+  <div class="div2" id="div2"><button class="btn2" onclick="backDiv()">&times;</button></div>
+  <div class="bg" id="bg"></div>
+
+</body>
+
+</html>
